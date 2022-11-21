@@ -1,0 +1,2544 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/wordpress/wp-content/themes/yootheme/vendor/yootheme/theme-wordpress/assets/images/favicon.png" sizes="any">
+    <link rel="apple-touch-icon" href="/wordpress/wp-content/themes/yootheme/vendor/yootheme/theme-wordpress/assets/images/apple-touch-icon.png">
+    <link rel="pingback" href="https://demo.yootheme.com/wordpress/xmlrpc.php">
+    <title>Wordpress &#8211; Just another WordPress site</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel="alternate" type="application/rss+xml" title="Wordpress &raquo; Feed" href="https://demo.yootheme.com/wordpress/themes/circle/?feed=rss2" />
+    <link rel="alternate" type="application/rss+xml" title="Wordpress &raquo; Comments Feed" href="https://demo.yootheme.com/wordpress/themes/circle/?feed=comments-rss2" />
+    <link rel="alternate" type="application/rss+xml" title="Wordpress &raquo; Home Comments Feed" href="https://demo.yootheme.com/wordpress/themes/circle/?feed=rss2&#038;page_id=1" />
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/demo.yootheme.com\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode,
+                    e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                    case "emoji":
+                        return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='https://demo.yootheme.com/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='classic-theme-styles-css' href='https://demo.yootheme.com/wordpress/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+    <style id='global-styles-inline-css' type='text/css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+            --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+            --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+            --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+            --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+            --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+            --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+            --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link href="https://demo.yootheme.com/wordpress/wp-content/themes/yootheme/css/theme.circle.default.css?ver=1668705038" rel="stylesheet">
+    <link rel="https://api.w.org/" href="https://demo.yootheme.com/wordpress/themes/circle/index.php?rest_route=/" />
+    <link rel="alternate" type="application/json" href="https://demo.yootheme.com/wordpress/themes/circle/index.php?rest_route=/wp/v2/pages/1" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://demo.yootheme.com/wordpress/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demo.yootheme.com/wordpress/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 6.1.1" />
+    <link rel="canonical" href="https://demo.yootheme.com/wordpress/themes/circle/" />
+    <link rel='shortlink' href='https://demo.yootheme.com/wordpress/themes/circle/' />
+    <link rel="alternate" type="application/json+oembed" href="https://demo.yootheme.com/wordpress/themes/circle/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fdemo.yootheme.com%2Fwordpress%2Fthemes%2Fcircle%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://demo.yootheme.com/wordpress/themes/circle/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fdemo.yootheme.com%2Fwordpress%2Fthemes%2Fcircle%2F&#038;format=xml" />
+    <script>
+        window !== parent && parent.postMessage({
+            source: "demo-iframe",
+            href: location.href
+        }, "https://yootheme.com");
+    </script>
+    <script src="https://demo.yootheme.com/wordpress/wp-content/themes/yootheme/vendor/assets/uikit/dist/js/uikit.min.js?ver=3.0.11"></script>
+    <script src="https://demo.yootheme.com/wordpress/wp-content/themes/yootheme/vendor/assets/uikit/dist/js/uikit-icons-circle.min.js?ver=3.0.11"></script>
+    <script src="https://demo.yootheme.com/wordpress/wp-content/themes/yootheme/js/theme.js?ver=3.0.11"></script>
+    <script>
+        var $theme = {};
+    </script>
+</head>
+
+<body class="home page-template-default page page-id-1 ">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+        <svg
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-blue-red">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0 1" />
+                        <feFuncG type="table" tableValues="0 0.27843137254902" />
+                        <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+            <svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+                <defs>
+                    <filter id="wp-duotone-magenta-yellow">
+                        <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                        <feComponentTransfer color-interpolation-filters="sRGB">
+                            <feFuncR type="table" tableValues="0.78039215686275 1" />
+                            <feFuncG type="table" tableValues="0 0.94901960784314" />
+                            <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                            <feFuncA type="table" tableValues="1 1" />
+                        </feComponentTransfer>
+                        <feComposite in2="SourceGraphic" operator="in" />
+                    </filter>
+                </defs>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+                    <defs>
+                        <filter id="wp-duotone-blue-orange">
+                            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                            <feComponentTransfer color-interpolation-filters="sRGB">
+                                <feFuncR type="table" tableValues="0.098039215686275 1" />
+                                <feFuncG type="table" tableValues="0 0.66274509803922" />
+                                <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                                <feFuncA type="table" tableValues="1 1" />
+                            </feComponentTransfer>
+                            <feComposite in2="SourceGraphic" operator="in" />
+                        </filter>
+                    </defs>
+                    </svg>
+
+
+                    <div class="tm-page">
+
+
+
+
+                        <div class="tm-header-mobile uk-hidden@l" uk-header>
+
+
+                            <div uk-sticky show-on-up animation="uk-animation-slide-top" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
+
+                                <div class="uk-navbar-container">
+
+                                    <div class="uk-container uk-container-expand">
+                                        <nav class="uk-navbar" uk-navbar="{&quot;container&quot;:&quot;.tm-header-mobile &gt; [uk-sticky]&quot;}">
+
+                                            <div class="uk-navbar-left">
+
+                                                <a href="https://demo.yootheme.com/wordpress/themes/circle" aria-label="Back to home" class="uk-logo uk-navbar-item">
+    <img alt="Circle" loading="eager" width="112" height="30" src="/demo/circle/images/logo-mobile.svg"></a>
+
+                                            </div>
+
+
+                                            <div class="uk-navbar-right">
+
+
+
+                                                <div class="uk-navbar-item widget widget_builderwidget" id="builderwidget-4">
+
+
+                                                    <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid>
+                                                        <div class="uk-width-1-1">
+
+
+
+
+
+
+
+                                                            <div class="uk-margin">
+
+
+
+
+                                                                <a class="el-content uk-button uk-button-primary uk-button-small" href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=26">
+    
+        Download    
+    
+</a>
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a uk-toggle aria-label="Open Menu" href="#tm-dialog-mobile" class="uk-navbar-toggle">
+
+
+                                                    <div uk-navbar-toggle-icon></div>
+
+
+                                                </a>
+                                            </div>
+
+                                        </nav>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                            <div id="tm-dialog-mobile" class="uk-modal-full" uk-modal>
+                                <div class="uk-modal-dialog uk-flex">
+
+                                    <button class="uk-modal-close-full uk-close-large" type="button" uk-close uk-toggle="cls: uk-modal-close-full uk-close-large uk-modal-close-default; mode: media; media: @s"></button>
+
+                                    <div class="uk-modal-body uk-padding-large uk-margin-auto uk-flex uk-flex-column uk-box-sizing-content uk-width-medium" uk-height-viewport uk-toggle="{&quot;cls&quot;:&quot;uk-padding-large&quot;,&quot;mode&quot;:&quot;media&quot;,&quot;media&quot;:&quot;@s&quot;}">
+
+                                        <div class="uk-margin-auto-vertical">
+
+                                            <div class="uk-grid uk-child-width-1-1" uk-grid>
+                                                <div>
+                                                    <div class="uk-panel widget widget_nav_menu" id="nav_menu-2">
+
+
+
+                                                        <ul class="uk-nav uk-nav-default uk-nav-divider uk-nav-accordion" uk-nav="targets: &gt; .js-accordion">
+
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1 current_page_item uk-active"><a href="https://demo.yootheme.com/wordpress/themes/circle/"> Home</a></li>
+                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children js-accordion uk-parent"><a href> Product <span uk-nav-parent-icon></span></a>
+                                                                <ul class="uk-nav-sub">
+
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19"> Product</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#video-effects"> Video Effects</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#full-control"> Full Control</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#data-privacy"> Data Privacy</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#chat-features-mobile"> Chat Features</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#more-features"> More Features</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=20"> Pricing</a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=4"> About</a></li>
+                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children js-accordion uk-parent"><a href> Careers ✨ <span uk-nav-parent-icon></span></a>
+                                                                <ul class="uk-nav-sub">
+
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=3"> Careers</a></li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=29"> Job Description</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children js-accordion uk-parent"><a href> Support <span uk-nav-parent-icon></span></a>
+                                                                <ul class="uk-nav-sub">
+
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#help-center"> Help Center</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#first-steps"> First Steps</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#documentation"> Documentation</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#our-community"> Our Community</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#accounts"> Accounts</a></li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=23"> Updates</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=61"> Blog</a></li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="uk-panel widget widget_builderwidget" id="builderwidget-2">
+
+
+                                                        <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid>
+                                                            <div class="uk-width-1-1">
+
+
+
+
+
+
+
+                                                                <div class="uk-margin">
+                                                                    <div class="uk-child-width-auto uk-grid-small uk-flex-inline" uk-grid>
+                                                                        <div>
+                                                                            <a class="el-link uk-link-text" href="https://www.youtube.com/channel/UCScfGdEgRCOh9YJdpGu82eQ" target="_blank" rel="noreferrer"><span uk-icon="icon: youtube;"></span></a></div>
+                                                                        <div>
+                                                                            <a class="el-link uk-link-text" href="https://github.com/" target="_blank" rel="noreferrer"><span uk-icon="icon: github;"></span></a></div>
+                                                                        <div>
+                                                                            <a class="el-link uk-link-text" href="https://twitter.com/" target="_blank" rel="noreferrer"><span uk-icon="icon: twitter;"></span></a></div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="uk-panel uk-text-meta uk-margin">©
+                                                                    <script>
+                                                                        document.currentScript.insertAdjacentHTML('afterend', '<time datetime="' + new Date().toJSON() + '">' + new Intl.DateTimeFormat(document.documentElement.lang, {
+                                                                            year: 'numeric'
+                                                                        }).format() + '</time>');
+                                                                    </script> Circle. All rights reserved.<br>Powered by <a class="uk-link-text" href="https://yootheme.com/">YOOtheme</a>.</div>
+
+
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="uk-grid-margin">
+
+                                            <div class="uk-grid uk-child-width-1-1">
+                                                <div>
+                                                    <div class="uk-panel widget widget_builderwidget" id="builderwidget-3">
+
+
+                                                        <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid>
+                                                            <div class="uk-width-1-1">
+
+
+
+
+
+
+
+                                                                <div class="uk-margin">
+
+
+
+
+                                                                    <a class="el-content uk-width-1-1 uk-button uk-button-primary" href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=26">
+    
+        Download    
+    
+</a>
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+                        <div class="tm-header uk-visible@l" uk-header>
+
+
+
+                            <div uk-sticky media="@l" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
+
+                                <div class="uk-navbar-container">
+
+                                    <div class="uk-container">
+                                        <nav class="uk-navbar uk-navbar-justify" uk-navbar="{&quot;align&quot;:&quot;center&quot;,&quot;container&quot;:&quot;.tm-header &gt; [uk-sticky]&quot;,&quot;boundary&quot;:&quot;.tm-header .uk-navbar-container&quot;}">
+
+                                            <div class="uk-navbar-left">
+
+                                                <a href="https://demo.yootheme.com/wordpress/themes/circle" aria-label="Back to home" class="uk-logo uk-navbar-item">
+    <img alt="Circle" loading="eager" width="112" height="30" src="/demo/circle/images/logo.svg"><img class="uk-logo-inverse" alt="Circle" loading="eager" width="112" height="30" src="/demo/circle/images/logo-inverted.svg"></a>
+
+                                                <ul class="uk-navbar-nav">
+
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19"> Product</a>
+                                                        <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2" style="width: 850px;">
+                                                            <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                                                <div>
+                                                                    <ul class="uk-nav uk-nav-secondary">
+
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#video-effects" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-lighting.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">Video Effects
+                                                                                        <div class="uk-nav-subtitle">Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#full-control" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-trouble-shooting.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">Full Control
+                                                                                        <div class="uk-nav-subtitle">At vero eos et accusam et justo duo dolores et ea rebum</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#data-privacy" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-lock.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">Data Privacy
+                                                                                        <div class="uk-nav-subtitle">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div>
+                                                                    <ul class="uk-nav uk-nav-secondary">
+
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#chat-features" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-chat.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">Chat Features
+                                                                                        <div class="uk-nav-subtitle">Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#more-features" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-rocket.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">More Features
+                                                                                        <div class="uk-nav-subtitle">Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=20"> Pricing</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=4"> About</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=3"> Careers ✨</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21"> Support</a>
+                                                        <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2" style="width: 850px;">
+                                                            <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                                                <div>
+                                                                    <ul class="uk-nav uk-nav-secondary">
+
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#help-center" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-chat.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">Help Center
+                                                                                        <div class="uk-nav-subtitle">Diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#first-steps" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-tutorials.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">First Steps
+                                                                                        <div class="uk-nav-subtitle">Eirmod tempor invidunt ut labore et dolore magna aliquyam sed diam voluptua</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#documentation" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-technology.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">Documentation
+                                                                                        <div class="uk-nav-subtitle">Eirmod tempor invidunt ut labore et dolore magna aliquyam</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div>
+                                                                    <ul class="uk-nav uk-nav-secondary">
+
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#accounts" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-account.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">Accounts
+                                                                                        <div class="uk-nav-subtitle">Elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21#our-community" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-heart.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">Our Community
+                                                                                        <div class="uk-nav-subtitle">Consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                                                            <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=23" class="uk-preserve-width">
+                                                                                <div class="uk-grid uk-grid-small uk-flex-middle">
+                                                                                    <div class="uk-width-auto"><img src="/demo/circle/images/icon-download.svg" width="52" height="52" alt loading="eager"></div>
+                                                                                    <div class="uk-width-expand">Updates
+                                                                                        <div class="uk-nav-subtitle">Sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=61"> Blog</a></li>
+                                                </ul>
+
+
+                                                <div class="uk-navbar-item widget widget_text" id="text-2">
+
+
+                                                    <div class="uk-panel textwidget"><a class="uk-button uk-button-primary" href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=26">Download</a></div>
+
+                                                </div>
+
+                                            </div>
+
+
+
+                                        </nav>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+                        <!-- Builder #page -->
+                        <style class="uk-margin-remove-adjacent">
+                            #page\#0 {
+                                will-change: transform;
+                            }
+
+                            #page\#1 .el-image {
+                                backdrop-filter: blur(7px);
+                                -webkit-backdrop-filter: blur(7px);
+                                border-radius: 33px;
+                            }
+
+                            @media (max-width: 639px) {
+                                #page\#1 .el-image {
+                                    max-width: 70vw;
+                                }
+                            }
+
+                            #page\#2 {
+                                display: inline-block;
+                                width: auto;
+                                max-width: none;
+                                translate: -50% -50%;
+                            }
+
+                            #page\#2 .el-image {
+                                max-width: 100vw;
+                            }
+
+                            #page\#3 {
+                                height: 60vh;
+                                min-height: 700px;
+                                margin-bottom: 10vh;
+                            }
+
+                            @media (max-width: 959px) {
+                                #page\#4>*> :nth-child(3n+0) {
+                                    display: none;
+                                }
+                            }
+                        </style>
+                        <div class="uk-section-default" tm-header-transparent="light" uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-bottom-small; delay: false;">
+                            <div data-src="/demo/circle/images/hero-bg.svg" uk-img class="uk-background-norepeat uk-background-cover uk-background-bottom-center uk-section uk-section-xlarge uk-padding-remove-bottom">
+
+
+
+
+                                <div class="uk-container">
+
+                                    <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid>
+                                        <div class="uk-width-1-1">
+
+
+
+
+
+
+
+                                            <h1 class="uk-heading-medium uk-margin-medium uk-text-center" uk-scrollspy-class> Always<br class="uk-hidden@s"> Around Your<br>Favorite<br class="uk-hidden@s"> People </h1>
+                                            <div class="uk-panel uk-text-large uk-width-2xlarge uk-margin-auto uk-text-center" uk-scrollspy-class>Lorem ipsum dolor sit amet consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</div>
+                                            <div class="uk-position-relative uk-margin-medium uk-text-center" style="z-index: 1;" uk-scrollspy-class>
+                                                <div class="uk-flex-middle uk-grid-small uk-child-width-auto uk-flex-center" uk-grid>
+
+                                                    <div class="el-item">
+
+
+                                                        <a class="el-content uk-button uk-button-primary" href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=26">
+    
+        Download for Free    
+    
+</a>
+
+
+                                                    </div>
+
+
+                                                    <div class="el-item">
+
+
+                                                        <a class="el-content uk-button uk-button-default" href="#js-706a" uk-toggle>
+    
+        See in Action    
+    
+</a>
+
+
+                                                        <div id="js-706a" class="uk-flex-top" uk-modal>
+                                                            <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                                                <button class="uk-modal-close-outside" type="button" uk-close></button>
+                                                                <video src="/demo/circle/images/home-hero-video.mp4" controls uk-video></video> </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+
+                                            </div>
+
+                                            <div id="page#0" class="uk-position-relative uk-margin-xlarge uk-margin-remove-bottom" uk-parallax="scale: 1,1.2; easing: 0.5; start: 100%;" style="z-index: 0;">
+                                                <div class="tm-box-decoration-primary uk-inline">
+                                                    <picture>
+                                                        <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/8f/home-hero-8f9357ed.webp 768w, /wordpress/wp-content/themes/yootheme/cache/50/home-hero-5057171e.webp 1024w, /wordpress/wp-content/themes/yootheme/cache/68/home-hero-68c86444.webp 1200w, https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1oZXJvLmpwZyIsW1sidHlwZSIsWyJ3ZWJwIiwiODUiXV0sWyJkb1Jlc2l6ZSIsWzEzNjcsNzcxLDEzNjcsNzcxXV0sWyJkb0Nyb3AiLFsxMzY2LDc3MSwwLDBdXV0sMTY2ODcwMzg1NF0%3D&amp;file=a6%2Fhome-hero-a62dfe70.webp&amp;hash=c33675a0 1366w, /wordpress/wp-content/themes/yootheme/cache/63/home-hero-63207069.webp 1600w, https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1oZXJvLmpwZyIsW1sidHlwZSIsWyJ3ZWJwIiwiODUiXV0sWyJkb1Jlc2l6ZSIsWzE5MjEsMTA4MywxOTIxLDEwODNdXSxbImRvQ3JvcCIsWzE5MjAsMTA4MywwLDBdXV0sMTY2ODcwMzg1NF0%3D&amp;file=b1%2Fhome-hero-b12dd6a2.webp&amp;hash=669347c3 1920w, /wordpress/wp-content/themes/yootheme/cache/57/home-hero-57862733.webp 2349w"
+                                                            sizes="(min-width: 1200px) 1200px">
+                                                        <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1oZXJvLmpwZyIsW1siZG9SZXNpemUiLFsxMjAwLDY3NywxMjAwLDY3N11dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=9e%2Fhome-hero-9ebdad3b.jpeg&amp;hash=72b27928"
+                                                            width="1200" height="677" class="el-image" alt loading="eager">
+                                                    </picture>
+                                                </div>
+
+                                            </div>
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="uk-section-default uk-section uk-section-large uk-padding-remove-bottom">
+
+
+
+
+
+                            <div class="uk-container uk-container-small">
+
+                                <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid>
+                                    <div class="uk-width-1-1">
+
+
+
+
+
+
+
+                                        <h2 class="uk-text-center"> 3 Simple Steps to <br class="uk-visible@s">Get Started </h2>
+                                        <div class="uk-position-relative uk-margin-large uk-margin-remove-bottom uk-text-center" style="z-index: 1;">
+                                            <div class="uk-child-width-1-1 uk-child-width-1-3@s uk-grid-column-small uk-grid-match" uk-grid>
+                                                <div>
+                                                    <a class="el-item uk-card uk-card-hover uk-card-body uk-margin-remove-first-child uk-link-toggle uk-display-block" href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=26" aria-label="Step 1">
+
+
+
+
+
+                                                        <div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom"> Step 1 </div>
+
+
+                                                        <img decoding="async" src="/demo/circle/images/icon-download.svg" width="80" height="80" class="el-image uk-margin-medium-top" alt loading="lazy">
+                                                        <h3 class="el-meta uk-h5 uk-margin-medium-top uk-margin-remove-bottom">Download the App</h3>
+                                                        <div class="el-content uk-panel uk-margin-top">Dolor sit amet consetetur sadipscing elitr.</div>
+
+
+
+
+
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a class="el-item uk-card uk-card-hover uk-card-body uk-margin-remove-first-child uk-link-toggle uk-display-block" href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=26" aria-label="Step 2">
+
+
+
+
+
+                                                        <div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom"> Step 2 </div>
+
+
+                                                        <img decoding="async" src="/demo/circle/images/icon-join.svg" width="80" height="80" class="el-image uk-margin-medium-top" alt loading="lazy">
+                                                        <h3 class="el-meta uk-h5 uk-margin-medium-top uk-margin-remove-bottom">Sign Up for Free</h3>
+                                                        <div class="el-content uk-panel uk-margin-top">Ipsum dolor sit amet consetetur elitr</div>
+
+
+
+
+
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a class="el-item uk-card uk-card-hover uk-card-body uk-margin-remove-first-child uk-link-toggle uk-display-block" href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=26" aria-label="Step 3">
+
+
+
+
+
+                                                        <div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom"> Step 3 </div>
+
+
+                                                        <img decoding="async" src="/demo/circle/images/icon-video-calls.svg" width="80" height="80" class="el-image uk-margin-medium-top" alt loading="lazy">
+                                                        <h3 class="el-meta uk-h5 uk-margin-medium-top uk-margin-remove-bottom">Start Your Video Calls</h3>
+                                                        <div class="el-content uk-panel uk-margin-top">Lorem ipsum dolor sit amet, consetetur sadipscing.</div>
+
+
+
+
+
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="uk-section-default uk-section uk-padding-remove-bottom">
+
+
+
+
+
+                            <div class="uk-container">
+
+                                <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid>
+                                    <div class="uk-grid-item-match uk-width-1-1">
+
+
+
+
+                                        <div class="uk-panel uk-width-1-1">
+
+
+                                            <div class="uk-position-absolute uk-width-1-1" style="left: 500px; top: -450px; z-index: 0;">
+                                                <img decoding="async" src="/demo/circle/images/background-glow-01.svg" width="1200" height="1200" class="el-image" alt loading="lazy">
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1" uk-parallax="opacity: 0,1; easing: 1; end: 50vh + 50%;" style="right: 600px; top: 1100px; z-index: 0;">
+                                                <img decoding="async" src="/demo/circle/images/background-glow-02.svg" width="1200" height="1200" class="el-image" alt loading="lazy">
+
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                                <div class="tm-grid-expand uk-grid-small uk-grid-margin-small" uk-grid uk-height-match="target: .uk-card">
+                                    <div class="uk-width-1-2@s uk-width-1-1@m">
+
+
+
+
+
+
+
+                                        <div class="uk-card uk-card-default uk-card-large uk-flex uk-margin" uk-parallax="y: 15vh,0; easing: 0.5; end: 100vh + 50%; media: @m;">
+
+                                            <div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
+                                                <div class="uk-width-3-5@m uk-flex-last@m">
+                                                    <div class="uk-card-media-right uk-cover-container" uk-toggle="cls: uk-card-media-right uk-card-media-top; mode: media; media: @m">
+                                                        <a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19" class="uk-display-block" aria-label="Read More">
+                                                            <picture>
+                                                                <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/69/home-feature-01-69000f0f.webp 720w, /wordpress/wp-content/themes/yootheme/cache/0e/home-feature-01-0ef55679.webp 768w, /wordpress/wp-content/themes/yootheme/cache/d1/home-feature-01-d1c10b8d.webp 1024w, /wordpress/wp-content/themes/yootheme/cache/20/home-feature-01-209e6b79.webp 1366w, /wordpress/wp-content/themes/yootheme/cache/fa/home-feature-01-faf72c14.webp 1440w"
+                                                                    sizes="(max-aspect-ratio: 720/548) 131vh">
+                                                                <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLTAxLnBuZyIsW1siZG9SZXNpemUiLFs3MjAsNTQ4LDcyMCw1NDhdXV0sMTY2ODcwMzg1M10%3D&amp;file=1b%2Fhome-feature-01-1bac58dd.png&amp;hash=8fc79fa9"
+                                                                    width="720" height="548" class="el-image" alt loading="lazy" uk-cover>
+                                                            </picture>
+                                                            <picture>
+                                                                <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/69/home-feature-01-69000f0f.webp 720w, /wordpress/wp-content/themes/yootheme/cache/0e/home-feature-01-0ef55679.webp 768w, /wordpress/wp-content/themes/yootheme/cache/d1/home-feature-01-d1c10b8d.webp 1024w, /wordpress/wp-content/themes/yootheme/cache/20/home-feature-01-209e6b79.webp 1366w, /wordpress/wp-content/themes/yootheme/cache/fa/home-feature-01-faf72c14.webp 1440w"
+                                                                    sizes="(min-width: 720px) 720px">
+                                                                <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLTAxLnBuZyIsW1siZG9SZXNpemUiLFs3MjAsNTQ4LDcyMCw1NDhdXV0sMTY2ODcwMzg1M10%3D&amp;file=1b%2Fhome-feature-01-1bac58dd.png&amp;hash=8fc79fa9"
+                                                                    width="720" height="548" class="el-image uk-invisible" alt loading="lazy">
+                                                            </picture>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-flex uk-flex-middle">
+                                                    <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                        <h2 class="el-title uk-h1 uk-margin-top uk-margin-remove-bottom"> Best App to Stay in Touch On Any Device </h2>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Dolor sit amet consetetur sadip scing elitr sed diam nonumy.</div>
+
+                                                        <div class="uk-margin-medium-top"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19" class="el-link uk-button uk-button-text">Read More</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+                                    <div class="uk-width-1-2@s uk-width-1-1@m">
+
+
+
+
+
+
+
+                                        <div class="uk-card uk-card-primary uk-card-large uk-flex uk-margin" uk-parallax="y: 15vh,0; easing: 0.5; end: 100vh + 50%; media: @m;">
+
+                                            <div class="uk-child-width-expand uk-grid-collapse uk-grid-match" uk-grid>
+                                                <div class="uk-width-3-5@m">
+                                                    <div class="uk-card-media-left uk-cover-container" uk-toggle="cls: uk-card-media-left uk-card-media-top; mode: media; media: @m">
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/24/home-feature-02-24f44edf.webp 720w, /wordpress/wp-content/themes/yootheme/cache/93/home-feature-02-93e2fb27.webp 768w, /wordpress/wp-content/themes/yootheme/cache/53/home-feature-02-53489bcc.webp 1024w, /wordpress/wp-content/themes/yootheme/cache/8b/home-feature-02-8ba819b6.webp 1366w, /wordpress/wp-content/themes/yootheme/cache/e4/home-feature-02-e43ee59a.webp 1440w"
+                                                                sizes="(max-aspect-ratio: 720/583) 123vh">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLTAyLnBuZyIsW1siZG9SZXNpemUiLFs3MjAsNTgzLDcyMCw1ODNdXV0sMTY2ODcwMzg1M10%3D&amp;file=0c%2Fhome-feature-02-0cf8451f.png&amp;hash=99a97abd"
+                                                                width="720" height="583" class="el-image" alt loading="lazy" uk-cover>
+                                                        </picture>
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/24/home-feature-02-24f44edf.webp 720w, /wordpress/wp-content/themes/yootheme/cache/93/home-feature-02-93e2fb27.webp 768w, /wordpress/wp-content/themes/yootheme/cache/53/home-feature-02-53489bcc.webp 1024w, /wordpress/wp-content/themes/yootheme/cache/8b/home-feature-02-8ba819b6.webp 1366w, /wordpress/wp-content/themes/yootheme/cache/e4/home-feature-02-e43ee59a.webp 1440w"
+                                                                sizes="(min-width: 720px) 720px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLTAyLnBuZyIsW1siZG9SZXNpemUiLFs3MjAsNTgzLDcyMCw1ODNdXV0sMTY2ODcwMzg1M10%3D&amp;file=0c%2Fhome-feature-02-0cf8451f.png&amp;hash=99a97abd"
+                                                                width="720" height="583" class="el-image uk-invisible" alt loading="lazy">
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-flex uk-flex-middle">
+                                                    <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                        <h2 class="el-title uk-h1 uk-margin-small-top uk-margin-remove-bottom"> Connect With up to 40 People in Real Time </h2>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Dolor sit amet consetetur sadip scing elitr sed diam nonumy.</div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="tm-grid-expand uk-grid-small uk-grid-margin-small" uk-grid uk-height-match="target: .uk-card">
+                                    <div class="uk-grid-item-match uk-flex-middle uk-width-1-2@s uk-flex-first@s">
+
+
+
+
+                                        <div class="uk-panel uk-width-1-1">
+
+
+                                            <div class="uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child uk-margin" uk-parallax="y: 15vh,0; easing: 0.5; target: ![uk-grid].tm-grid-expand; end: 100vh + 50%; media: @m;">
+
+                                                <img decoding="async" src="/demo/circle/images/icon-lock.svg" width="80" height="80" class="el-image" alt loading="lazy">
+
+
+
+                                                <h2 class="el-title uk-h1 uk-margin-top uk-margin-remove-bottom"> A High Level of Security<br>Guaranteed </h2>
+
+
+
+
+                                                <div class="el-content uk-panel uk-margin-top">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</div>
+
+                                                <div class="uk-margin-medium-top"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19#data-privacy" class="el-link uk-button uk-button-text">Read More</a></div>
+
+
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <div class="uk-width-1-2@s uk-flex-first">
+
+
+
+
+
+
+
+                                        <div class="uk-card uk-card-default uk-card-large uk-margin-remove-first-child uk-margin" uk-parallax="y: 15vh,0; easing: 0.5; target: ![uk-grid].tm-grid-expand; end: 100vh + 50%; media: @m;">
+
+
+                                            <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                <h2 class="el-title uk-h1 uk-margin-top uk-margin-remove-bottom"> Easily Create<br class="uk-visible@s"> New Groups </h2>
+
+
+
+
+                                                <div class="el-content uk-panel uk-margin-top">Dolor sit amet consetetur sadip scing elitr sed diam nonumy.</div>
+
+
+                                            </div>
+                                            <div class="uk-card-media-bottom">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/ad/home-feature-03-ad811266.webp 610w, /wordpress/wp-content/themes/yootheme/cache/df/home-feature-03-df7880ba.webp 768w, /wordpress/wp-content/themes/yootheme/cache/d5/home-feature-03-d583a9fb.webp 1024w, /wordpress/wp-content/themes/yootheme/cache/7b/home-feature-03-7b42b643.webp 1190w"
+                                                        sizes="(min-width: 610px) 610px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLTAzLnBuZyIsW1siZG9SZXNpemUiLFs2MTAsNDEyLDYxMCw0MTJdXV0sMTY2ODcwMzg1NF0%3D&amp;file=b3%2Fhome-feature-03-b3ed2da8.png&amp;hash=9a51e6e8"
+                                                        width="610" height="412" class="el-image" alt loading="lazy">
+                                                </picture>
+                                            </div>
+
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="uk-section-default uk-section uk-section-large uk-padding-remove-bottom">
+
+
+
+
+
+                            <div class="uk-container">
+
+                                <div class="tm-grid-expand uk-child-width-1-1 uk-margin-remove-vertical" uk-grid>
+                                    <div class="uk-grid-item-match uk-width-1-1">
+
+
+
+
+                                        <div class="uk-panel uk-width-1-1">
+
+
+                                            <h2 class="uk-h1 uk-position-relative uk-text-center" style="z-index: 3;"> Connect With People<br class="uk-visible@s"> From Any App </h2>
+                                            <div class="uk-visible@s uk-position-relative uk-margin" uk-parallax="y: 0,-22vh; opacity: 0.4,1; easing: 1; start: 100%;" style="left: 27%; top: 100px; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/15/home-feature-gallery-01-1531438a.webp 140w, /wordpress/wp-content/themes/yootheme/cache/00/home-feature-gallery-01-004a6d5b.webp 280w" sizes="(min-width: 140px) 140px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMDEuanBnIixbWyJkb1Jlc2l6ZSIsWzE0MCw5NiwxNDAsOTZdXV0sMTY2ODcwMzg1NF0%3D&amp;file=b3%2Fhome-feature-gallery-01-b31904c8.jpeg&amp;hash=53d35490"
+                                                        width="140" height="96" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@m uk-position-absolute uk-width-1-1" uk-parallax="y: 0,-40vh; easing: 1; start: 100%;" style="top: 350px; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/3c/home-feature-gallery-02-3c5db177.webp 140w, /wordpress/wp-content/themes/yootheme/cache/c4/home-feature-gallery-02-c494695c.webp 280w" sizes="(min-width: 140px) 140px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMDIuanBnIixbWyJkb1Jlc2l6ZSIsWzE0MCw5NiwxNDAsOTZdXV0sMTY2ODcwMzg1NF0%3D&amp;file=f9%2Fhome-feature-gallery-02-f98073bc.jpeg&amp;hash=8827bd12"
+                                                        width="140" height="96" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@m uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-35vh; opacity: 0.5,1; easing: 1; start: 100%;" style="right: 23%; top: 220px; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/0f/home-feature-gallery-22-0fe73949.webp 110w, /wordpress/wp-content/themes/yootheme/cache/c0/home-feature-gallery-22-c08018db.webp 220w" sizes="(min-width: 110px) 110px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMjIuanBnIixbWyJkb1Jlc2l6ZSIsWzExMCw3NiwxMTAsNzZdXV0sMTY2ODcwMzg1NF0%3D&amp;file=2d%2Fhome-feature-gallery-22-2dc0707c.jpeg&amp;hash=230e3140"
+                                                        width="110" height="76" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@m uk-position-relative uk-margin-large uk-text-center" uk-parallax="y: 0,-20vh; easing: 1; start: 100%;" style="top: 90px; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/1e/home-feature-gallery-03-1ec098d7.webp 170w, /wordpress/wp-content/themes/yootheme/cache/4b/home-feature-gallery-03-4bb221f0.webp 340w" sizes="(min-width: 170px) 170px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMDMuanBnIixbWyJkb1Jlc2l6ZSIsWzE3MCwxMTcsMTcwLDExN11dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=6e%2Fhome-feature-gallery-03-6ed5e2db.jpeg&amp;hash=ce6218fc"
+                                                        width="170" height="117" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@l uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-20vh; easing: 1;" style="top: 25vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/28/home-feature-gallery-21-28e2d55b.webp 170w, /wordpress/wp-content/themes/yootheme/cache/91/home-feature-gallery-21-9136a90f.webp 340w" sizes="(min-width: 170px) 170px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMjEuanBnIixbWyJkb1Jlc2l6ZSIsWzE3MCwxMTcsMTcwLDExN11dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=f2%2Fhome-feature-gallery-21-f240fba6.jpeg&amp;hash=b1fa7335"
+                                                        width="170" height="117" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                                <div id="page#3" class="tm-grid-expand uk-margin-xlarge" uk-grid>
+                                    <div class="uk-grid-item-match uk-width-expand@s uk-width-1-3@m">
+
+
+
+
+                                        <div class="uk-panel uk-width-1-1">
+
+
+                                            <div class="uk-visible@m uk-position-absolute uk-width-1-1 uk-text-center" uk-parallax="y: 0,-90vh; opacity: 0.9,1; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 20%; top: 0px; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/6e/home-feature-gallery-04-6e84548d.webp 140w, /wordpress/wp-content/themes/yootheme/cache/96/home-feature-gallery-04-96596713.webp 280w" sizes="(min-width: 140px) 140px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMDQuanBnIixbWyJkb1Jlc2l6ZSIsWzE0MCw5NiwxNDAsOTZdXV0sMTY2ODcwMzg1NF0%3D&amp;file=6c%2Fhome-feature-gallery-04-6cb29d54.jpeg&amp;hash=eaee78ff"
+                                                        width="140" height="96" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1 uk-text-left" uk-parallax="y: 0,-80vh; opacity: 0.5,1; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 7%; top: 15vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/c7/home-feature-gallery-05-c7dc317a.webp 110w, /wordpress/wp-content/themes/yootheme/cache/8c/home-feature-gallery-05-8c179a6c.webp 220w" sizes="(min-width: 110px) 110px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMDUuanBnIixbWyJkb1Jlc2l6ZSIsWzExMCw3NiwxMTAsNzZdXV0sMTY2ODcwMzg1NF0%3D&amp;file=e4%2Fhome-feature-gallery-05-e4b98424.jpeg&amp;hash=d41b4ef1"
+                                                        width="110" height="76" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1 uk-text-center" uk-parallax="y: 0,-50vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 25%; top: 16vh; z-index: 2;">
+                                                <img decoding="async" src="/demo/circle/images/home-feature-gallery-logo-01.svg" width="50" height="50" class="el-image" alt loading="lazy">
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1 uk-text-left" uk-parallax="y: 0,-30vh; opacity: 0.2,1; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: -24%; top: 23vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/63/home-feature-gallery-09-6355bfb5.webp 75w, /wordpress/wp-content/themes/yootheme/cache/58/home-feature-gallery-09-588ab3f9.webp 150w" sizes="(min-width: 75px) 75px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMDkuanBnIixbWyJkb1Jlc2l6ZSIsWzc1LDUyLDc1LDUyXV1dLDE2Njg3MDM4NTRd&amp;file=4c%2Fhome-feature-gallery-09-4cc3000d.jpeg&amp;hash=09d708d9"
+                                                        width="75" height="52" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1 uk-text-center" uk-parallax="y: 0,-55vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 24%; top: 27vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/d2/home-feature-gallery-06-d252f062.webp 170w, /wordpress/wp-content/themes/yootheme/cache/dd/home-feature-gallery-06-dda12bb8.webp 340w" sizes="(min-width: 170px) 170px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMDYuanBnIixbWyJkb1Jlc2l6ZSIsWzE3MCwxMTcsMTcwLDExN11dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=3a%2Fhome-feature-gallery-06-3af2d386.jpeg&amp;hash=817f33e4"
+                                                        width="170" height="117" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1" uk-parallax="y: 0,-40vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: -10%; top: 35vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/c7/home-feature-gallery-11-c74c0e05.webp 160w, /wordpress/wp-content/themes/yootheme/cache/08/home-feature-gallery-11-082429c0.webp 320w" sizes="(min-width: 160px) 160px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTEuanBnIixbWyJkb1Jlc2l6ZSIsWzE2MCwxMTAsMTYwLDExMF1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=78%2Fhome-feature-gallery-11-78296a09.jpeg&amp;hash=5103c0b9"
+                                                        width="160" height="110" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@m uk-position-absolute uk-width-1-1" uk-parallax="y: 0,-40vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 36%; top: 48vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/98/home-feature-gallery-07-98675e57.webp 120w, /wordpress/wp-content/themes/yootheme/cache/14/home-feature-gallery-07-14cb6f82.webp 240w" sizes="(min-width: 120px) 120px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMDcuanBnIixbWyJkb1Jlc2l6ZSIsWzEyMCw4MywxMjAsODNdXV0sMTY2ODcwMzg1NF0%3D&amp;file=f9%2Fhome-feature-gallery-07-f9a41207.jpeg&amp;hash=efac7764"
+                                                        width="120" height="83" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1 uk-text-left" uk-parallax="y: 0,-50vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 12%; top: 58vh; z-index: 2;">
+                                                <img decoding="async" src="/demo/circle/images/home-feature-gallery-logo-02.svg" width="50" height="50" class="el-image" alt loading="lazy">
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1" uk-parallax="y: 0,-50vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 100%; top: 43vh; z-index: 3;">
+                                                <img decoding="async" src="/demo/circle/images/home-feature-gallery-logo-03.svg" width="50" height="50" class="el-image" alt loading="lazy">
+
+                                            </div>
+
+                                            <div class="uk-visible@s uk-position-absolute uk-width-1-1" uk-parallax="y: 0,-55vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 55%; top: 70vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/4b/home-feature-gallery-10-4ba57a73.webp 110w, /wordpress/wp-content/themes/yootheme/cache/6f/home-feature-gallery-10-6f9b56b9.webp 220w" sizes="(min-width: 110px) 110px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTAuanBnIixbWyJkb1Jlc2l6ZSIsWzExMCw3NiwxMTAsNzZdXV0sMTY2ODcwMzg1NF0%3D&amp;file=bf%2Fhome-feature-gallery-10-bf230449.jpeg&amp;hash=488ee933"
+                                                        width="110" height="76" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1 uk-text-left" uk-parallax="y: 0,-40vh; opacity: 0.5,1; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 0px; top: 70vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/3a/home-feature-gallery-08-3a3387de.webp 75w, /wordpress/wp-content/themes/yootheme/cache/ad/home-feature-gallery-08-adefb23b.webp 150w" sizes="(min-width: 75px) 75px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMDguanBnIixbWyJkb1Jlc2l6ZSIsWzc1LDUyLDc1LDUyXV1dLDE2Njg3MDM4NTRd&amp;file=25%2Fhome-feature-gallery-08-25ba0b68.jpeg&amp;hash=67f95b36"
+                                                        width="75" height="52" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-position-absolute uk-width-1-1" uk-parallax="y: 0,-30vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 70%; top: 75vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/35/home-feature-gallery-12-35ed2ba9.webp 160w, /wordpress/wp-content/themes/yootheme/cache/cc/home-feature-gallery-12-ccfa2dc7.webp 320w" sizes="(min-width: 160px) 160px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTIuanBnIixbWyJkb1Jlc2l6ZSIsWzE2MCwxMTAsMTYwLDExMF1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=fd%2Fhome-feature-gallery-12-fd1b78fd.jpeg&amp;hash=e1bfffc3"
+                                                        width="160" height="110" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <div class="uk-grid-item-match uk-width-auto@s uk-width-1-3@m">
+
+
+
+
+                                        <div class="uk-panel uk-width-1-1">
+
+
+                                            <div id="page#1" class="uk-position-relative uk-margin uk-text-center" uk-parallax="y: -10vh,20vh; easing: 1; target: !.uk-section;" style="z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/27/home-feature-feature-gallery-fg-271b37ce.webp 253w, /wordpress/wp-content/themes/yootheme/cache/8f/home-feature-feature-gallery-fg-8fda1b74.webp 495w" sizes="(min-width: 253px) 253px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWZlYXR1cmUtZ2FsbGVyeS1mZy5wbmciLFtbImRvUmVzaXplIixbMjUzLDUyNSwyNTMsNTI1XV1dLDE2Njg3MDM4NTRd&amp;file=79%2Fhome-feature-feature-gallery-fg-79b08f4c.png&amp;hash=b2d88881"
+                                                        width="253" height="525" class="el-image" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div id="page#2" class="uk-position-absolute uk-width-1-1" uk-parallax="y: -10vh,10vh; rotate: 0,360; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 50%; top: 50%;">
+                                                <img decoding="async" src="/demo/circle/images/swirl-bg.svg" width="745" height="745" class="el-image" alt loading="lazy">
+
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <div class="uk-grid-item-match uk-width-expand@s uk-width-1-3@m uk-visible@s">
+
+
+
+
+                                        <div class="uk-panel uk-width-1-1">
+
+
+                                            <div class="uk-visible@m uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-80vh; opacity: 0.5,1 5%; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="right: 30%; top: -3vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/50/home-feature-gallery-20-505c5664.webp 120w, /wordpress/wp-content/themes/yootheme/cache/58/home-feature-gallery-20-585ced35.webp 240w" sizes="(min-width: 120px) 120px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMjAuanBnIixbWyJkb1Jlc2l6ZSIsWzEyMCw4MywxMjAsODNdXV0sMTY2ODcwMzg1NF0%3D&amp;file=30%2Fhome-feature-gallery-20-30dde65f.jpeg&amp;hash=75f91909"
+                                                        width="120" height="83" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@s uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-35vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="right: 47%; top: 5vh; z-index: 1;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/90/home-feature-gallery-19-90f71dd9.webp 160w, /wordpress/wp-content/themes/yootheme/cache/ce/home-feature-gallery-19-cec83ed4.webp 320w" sizes="(min-width: 160px) 160px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTkuanBnIixbWyJkb1Jlc2l6ZSIsWzE2MCwxMTAsMTYwLDExMF1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=9f%2Fhome-feature-gallery-19-9f6be9d4.jpeg&amp;hash=37266bef"
+                                                        width="160" height="110" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@m uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-50vh; opacity: 0.5,1 30%; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="right: 10%; top: 20vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/40/home-feature-gallery-18-408ada06.webp 180w, /wordpress/wp-content/themes/yootheme/cache/06/home-feature-gallery-18-06d54f11.webp 360w" sizes="(min-width: 180px) 180px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTguanBnIixbWyJkb1Jlc2l6ZSIsWzE4MCwxMjQsMTgwLDEyNF1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=62%2Fhome-feature-gallery-18-62673cc3.jpeg&amp;hash=80461797"
+                                                        width="180" height="124" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@s uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-70vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="right: 80%; top: 28vh; z-index: 2;">
+                                                <img decoding="async" src="/demo/circle/images/home-feature-gallery-logo-04.svg" width="50" height="50" class="el-image" alt loading="lazy">
+
+                                            </div>
+
+                                            <div class="uk-visible@s uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-70vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="right: 67%; top: 40vh; z-index: 1;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/b0/home-feature-gallery-17-b024fa7e.webp 140w, /wordpress/wp-content/themes/yootheme/cache/27/home-feature-gallery-17-2718a589.webp 280w" sizes="(min-width: 140px) 140px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTcuanBnIixbWyJkb1Jlc2l6ZSIsWzE0MCw5NiwxNDAsOTZdXV0sMTY2ODcwMzg1NF0%3D&amp;file=a2%2Fhome-feature-gallery-17-a21af3d1.jpeg&amp;hash=80d3f785"
+                                                        width="140" height="96" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@s uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-60vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="right: -30%; top: 50vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/db/home-feature-gallery-15-dba3a16f.webp 180w, /wordpress/wp-content/themes/yootheme/cache/56/home-feature-gallery-15-562a524d.webp 360w" sizes="(min-width: 180px) 180px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTUuanBnIixbWyJkb1Jlc2l6ZSIsWzE4MCwxMjQsMTgwLDEyNF1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=d1%2Fhome-feature-gallery-15-d1028e43.jpeg&amp;hash=864ccba4"
+                                                        width="180" height="124" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@m uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-60vh; opacity: 0.3,1 30%; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="right: 40%; top: 55vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/02/home-feature-gallery-16-020206f1.webp 155w, /wordpress/wp-content/themes/yootheme/cache/d9/home-feature-gallery-16-d93e686e.webp 310w" sizes="(min-width: 155px) 155px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTYuanBnIixbWyJkb1Jlc2l6ZSIsWzE1NSwxMDcsMTU1LDEwN11dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=7f%2Fhome-feature-gallery-16-7f301e85.jpeg&amp;hash=c5d829ab"
+                                                        width="155" height="107" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@s uk-position-absolute uk-width-1-1 uk-text-center" uk-parallax="y: 0,-60vh; opacity: 0.3,1 60%; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="left: 11%; top: 70vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/6a/home-feature-gallery-14-6a940457.webp 85w, /wordpress/wp-content/themes/yootheme/cache/15/home-feature-gallery-14-15d61af9.webp 170w" sizes="(min-width: 85px) 85px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTQuanBnIixbWyJkb1Jlc2l6ZSIsWzg1LDU4LDg1LDU4XV1dLDE2Njg3MDM4NTRd&amp;file=09%2Fhome-feature-gallery-14-0961e8dc.jpeg&amp;hash=be5ace21"
+                                                        width="85" height="58" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@m uk-position-absolute uk-width-1-1 uk-text-left" uk-parallax="y: 0,-35vh; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="right: 12%; top: 60vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/79/home-feature-gallery-23-7930a499.webp 120w, /wordpress/wp-content/themes/yootheme/cache/9c/home-feature-gallery-23-9c82e932.webp 240w" sizes="(min-width: 120px) 120px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMjMuanBnIixbWyJkb1Jlc2l6ZSIsWzEyMCw4MywxMjAsODNdXV0sMTY2ODcwMzg1NF0%3D&amp;file=7a%2Fhome-feature-gallery-23-7a44912b.jpeg&amp;hash=29f71d2c"
+                                                        width="120" height="83" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+                                            <div class="uk-visible@m uk-position-absolute uk-width-1-1 uk-text-right" uk-parallax="y: 0,-40vh; opacity: 0.5,1 60%; easing: 1; target: ![uk-grid].tm-grid-expand&gt;*;" style="right: 45%; top: 75vh; z-index: 2;">
+                                                <picture>
+                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/e5/home-feature-gallery-13-e590ec76.webp 180w, /wordpress/wp-content/themes/yootheme/cache/04/home-feature-gallery-13-04e75c02.webp 360w" sizes="(min-width: 180px) 180px">
+                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdhbGxlcnktMTMuanBnIixbWyJkb1Jlc2l6ZSIsWzE4MCwxMjQsMTgwLDEyNF1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=00%2Fhome-feature-gallery-13-0017adea.jpeg&amp;hash=66d9ac95"
+                                                        width="180" height="124" class="el-image uk-border-rounded" alt loading="lazy">
+                                                </picture>
+
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="uk-section-default uk-section uk-section-large uk-padding-remove-bottom" uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-bottom-small; delay: false;">
+
+
+
+
+
+                            <div class="uk-container">
+
+                                <div class="tm-grid-expand uk-margin-remove-vertical" uk-grid>
+                                    <div class="uk-width-1-2@s uk-width-3-5@m">
+
+
+
+
+
+
+
+                                        <div class="uk-position-relative uk-margin" uk-parallax="y: 50,-50; easing: 0.5; end: 75vh; media: @m;" style="z-index: 1;">
+                                            <picture>
+                                                <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/41/home-feature-grid-01-419748db.webp 710w, /wordpress/wp-content/themes/yootheme/cache/50/home-feature-grid-01-509ee83d.webp 768w, /wordpress/wp-content/themes/yootheme/cache/8c/home-feature-grid-01-8c134674.webp 1024w, /wordpress/wp-content/themes/yootheme/cache/96/home-feature-grid-01-967619c0.webp 1366w, /wordpress/wp-content/themes/yootheme/cache/de/home-feature-grid-01-de0bd9da.webp 1409w"
+                                                    sizes="(min-width: 710px) 710px">
+                                                <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdyaWQtMDEucG5nIixbWyJkb1Jlc2l6ZSIsWzcxMCw1MjQsNzEwLDUyNF1dXSwxNjY4NzAzODUzXQ%3D%3D&amp;file=03%2Fhome-feature-grid-01-03552a33.png&amp;hash=b4c287ec"
+                                                    width="710" height="524" class="el-image" alt loading="lazy">
+                                            </picture>
+
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+                                    <div class="uk-grid-item-match uk-flex-middle uk-width-1-2@s uk-width-2-5@m">
+
+
+
+
+                                        <div class="uk-panel uk-width-1-1">
+
+
+                                            <div class="uk-panel uk-margin-remove-first-child uk-position-relative uk-margin uk-width-medium" style="z-index: 1;">
+
+
+
+
+
+                                                <h2 class="el-title uk-h1 uk-margin-top uk-margin-remove-bottom"> Share Your Passion With Everyone </h2>
+
+
+
+
+                                                <div class="el-content uk-panel uk-margin-top">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.</div>
+
+                                                <div class="uk-margin-medium-top"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19" class="el-link uk-button uk-button-text">See More Use Cases</a></div>
+
+
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                                <div class="tm-grid-expand uk-child-width-1-1 uk-margin" uk-grid>
+                                    <div class="uk-grid-item-match uk-width-1-1">
+
+
+
+
+                                        <div class="uk-panel uk-width-1-1">
+
+
+                                            <div class="uk-position-absolute uk-width-1-1" style="left: 500px; top: -120px; z-index: 0;" uk-scrollspy-class>
+                                                <img decoding="async" src="/demo/circle/images/background-glow-01.svg" width="1200" height="1200" class="el-image" alt loading="lazy">
+
+                                            </div>
+
+                                            <div id="page#4" class="uk-margin-remove-vertical uk-text-center" uk-parallax="y: 10vh,0; easing: 0.5; end: 100vh + 50%; media: @m;">
+                                                <div class="uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                                                    <div>
+                                                        <div class="el-item uk-card uk-card-default uk-card-large uk-margin-remove-first-child">
+
+
+                                                            <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                                <h3 class="el-title uk-card-title uk-margin-top uk-margin-remove-bottom"> Online Courses </h3>
+
+
+
+
+                                                                <div class="el-content uk-panel uk-margin-top">Lorem ipsum dolor sit amet consetetur sadipscin.</div>
+
+
+                                                            </div>
+                                                            <div class="uk-card-media-bottom">
+                                                                <picture>
+                                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/0b/home-feature-grid-02-0b2e6306.webp 610w, /wordpress/wp-content/themes/yootheme/cache/72/home-feature-grid-02-72466bc8.webp 768w, /wordpress/wp-content/themes/yootheme/cache/75/home-feature-grid-02-750d412e.webp 800w"
+                                                                        sizes="(min-width: 610px) 610px">
+                                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdyaWQtMDIucG5nIixbWyJkb1Jlc2l6ZSIsWzYxMCw0MDAsNjEwLDQwMF1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=13%2Fhome-feature-grid-02-134c5dfc.png&amp;hash=387eecfe"
+                                                                        width="610" height="400" class="el-image" alt loading="lazy">
+                                                                </picture>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="el-item uk-card uk-card-default uk-card-large uk-margin-remove-first-child">
+
+
+                                                            <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                                <h3 class="el-title uk-card-title uk-margin-top uk-margin-remove-bottom"> School Projects </h3>
+
+
+
+
+                                                                <div class="el-content uk-panel uk-margin-top">Invidunt ut labore et dolore magna aliquyam erat.</div>
+
+
+                                                            </div>
+                                                            <div class="uk-card-media-bottom">
+                                                                <picture>
+                                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/f7/home-feature-grid-03-f770a49b.webp 610w, /wordpress/wp-content/themes/yootheme/cache/07/home-feature-grid-03-07d9ad55.webp 768w, /wordpress/wp-content/themes/yootheme/cache/00/home-feature-grid-03-009287b3.webp 800w"
+                                                                        sizes="(min-width: 610px) 610px">
+                                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdyaWQtMDMucG5nIixbWyJkb1Jlc2l6ZSIsWzYxMCw0MDAsNjEwLDQwMF1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=d9%2Fhome-feature-grid-03-d972ae6f.png&amp;hash=e02c5341"
+                                                                        width="610" height="400" class="el-image" alt loading="lazy">
+                                                                </picture>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="el-item uk-card uk-card-default uk-card-large uk-margin-remove-first-child">
+
+
+                                                            <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                                <h3 class="el-title uk-card-title uk-margin-top uk-margin-remove-bottom"> Team Meetings </h3>
+
+
+
+
+                                                                <div class="el-content uk-panel uk-margin-top">Sed diam nonumy eirmod tempor invidunt ut.</div>
+
+
+                                                            </div>
+                                                            <div class="uk-card-media-bottom">
+                                                                <picture>
+                                                                    <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/6f/home-feature-grid-04-6f7bf88b.webp 610w, /wordpress/wp-content/themes/yootheme/cache/94/home-feature-grid-04-9477fac7.webp 768w, /wordpress/wp-content/themes/yootheme/cache/93/home-feature-grid-04-933cd021.webp 800w"
+                                                                        sizes="(min-width: 610px) 610px">
+                                                                    <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1mZWF0dXJlLWdyaWQtMDQucG5nIixbWyJkb1Jlc2l6ZSIsWzYxMCw0MDAsNjEwLDQwMF1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=c2%2Fhome-feature-grid-04-c2597e55.png&amp;hash=60d0d7c4"
+                                                                        width="610" height="400" class="el-image" alt loading="lazy">
+                                                                </picture>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="uk-section-default uk-section uk-section-xlarge">
+
+
+
+
+
+
+
+                            <div class="uk-grid-margin uk-container">
+                                <div class="tm-grid-expand uk-child-width-1-1" uk-grid>
+                                    <div class="uk-width-1-1">
+
+
+
+
+
+
+
+                                        <h2 class="uk-h1 uk-text-center"> Millions of People<br> Trust Circle </h2>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tm-grid-expand uk-child-width-1-1 uk-margin-large" uk-grid>
+                                <div class="uk-width-1-1">
+
+
+
+
+
+
+
+                                    <div class="uk-margin" uk-slider="autoplay: 1;">
+                                        <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+
+                                            <ul class="uk-slider-items uk-grid uk-grid-small">
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/a2/home-reviews-01-a23bbafc.webp 75w, /wordpress/wp-content/themes/yootheme/cache/f7/home-reviews-01-f7d5c87b.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTAxLmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=62%2Fhome-reviews-01-62f641fe.jpeg&amp;hash=59d8260b"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Charley Preston </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur
+                                                            sadipscing.</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/50/home-reviews-02-508ac300.webp 75w, /wordpress/wp-content/themes/yootheme/cache/2a/home-reviews-02-2a10fd3d.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTAyLmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU1XQ%3D%3D&amp;file=c0%2Fhome-reviews-02-c0666d10.jpeg&amp;hash=1dd94f7e"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Kay Wilde </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Consetetur sadip scing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet.</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/10/home-reviews-03-10f7ca2a.webp 75w, /wordpress/wp-content/themes/yootheme/cache/c6/home-reviews-03-c66ecdbe.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTAzLmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=b0%2Fhome-reviews-03-b0045734.jpeg&amp;hash=a6632c2f"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Amara Berry </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Sit amet consetetur sadipscing elitr, sed diam nonumy <a href="#">@loremipsum</a> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                            elitr, sed diam nonumy eirmod 🥳 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/5c/home-reviews-04-5caf543b.webp 75w, /wordpress/wp-content/themes/yootheme/cache/78/home-reviews-04-78ddf372.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTA0LmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU1XQ%3D%3D&amp;file=6c%2Fhome-reviews-04-6c01500f.jpeg&amp;hash=bbb5713f"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Jordanne Miller </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur
+                                                            sadipscing.</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/05/home-reviews-05-05c96c50.webp 75w, /wordpress/wp-content/themes/yootheme/cache/8d/home-reviews-05-8db8f2b0.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTA1LmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU1XQ%3D%3D&amp;file=05%2Fhome-reviews-05-05785b6a.jpeg&amp;hash=2e97be26"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Valentina Todd </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Ipsum dolor sit amet, consetetur sadip scing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet.</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/ee/home-reviews-06-ee6324ed.webp 75w, /wordpress/wp-content/themes/yootheme/cache/49/home-reviews-06-4966f6b7.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTA2LmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU1XQ%3D%3D&amp;file=be%2Fhome-reviews-06-bef346c5.jpeg&amp;hash=e6e94b13"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Keelan Moon </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Consetetur sadipscing elitr, sed diam nonumy <a href="#">@loremipsum</a> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                                            sed diam nonumy 🥳</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/ae/home-reviews-07-ae1e2dc7.webp 75w, /wordpress/wp-content/themes/yootheme/cache/a5/home-reviews-07-a518c634.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTA3LmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=ce%2Fhome-reviews-07-ce917ce1.jpeg&amp;hash=82e854da"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Marissa Macias </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Sadipscing elitr sed diam nonumy <a href="#">@loremipsum</a> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                                            nonumy eirmod 🥳 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/44/home-reviews-08-44e47a4d.webp 75w, /wordpress/wp-content/themes/yootheme/cache/dd/home-reviews-08-dd47efec.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTA4LmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU1XQ%3D%3D&amp;file=ef%2Fhome-reviews-08-efbe2c70.jpeg&amp;hash=3045bbec"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Zakir Weber </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur
+                                                            sadipscing.</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/04/home-reviews-09-04997367.webp 75w, /wordpress/wp-content/themes/yootheme/cache/31/home-reviews-09-3139df6f.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTA5LmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU0XQ%3D%3D&amp;file=9f%2Fhome-reviews-09-9fdc1654.jpeg&amp;hash=ab29afb4"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Brittney Mcleod </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                                <li class="uk-width-5-6 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@xl">
+                                                    <div class="el-item uk-card uk-card-default uk-card-large uk-card-body uk-margin-remove-first-child">
+
+                                                        <picture>
+                                                            <source type="image/webp" srcset="/wordpress/wp-content/themes/yootheme/cache/38/home-reviews-10-387f6d3e.webp 75w, /wordpress/wp-content/themes/yootheme/cache/6e/home-reviews-10-6e343e65.webp 150w" sizes="(min-width: 75px) 75px">
+                                                            <img decoding="async" src="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=image&amp;src=WyIuLi9kZW1vL2NpcmNsZS9pbWFnZXMvaG9tZS1yZXZpZXdzLTEwLmpwZyIsW1siZG9SZXNpemUiLFs3NSw3NSw3NSw3NV1dXSwxNjY4NzAzODU1XQ%3D%3D&amp;file=2f%2Fhome-reviews-10-2f259706.jpeg&amp;hash=049f9bc7"
+                                                                width="75" height="75" class="el-image uk-border-circle" alt loading="lazy">
+                                                        </picture>
+
+
+
+                                                        <div class="el-title uk-h5 uk-margin-medium-top uk-margin-remove-bottom"> Deniz Martin </div>
+
+
+
+
+                                                        <div class="el-content uk-panel uk-margin-top">Dolor sit amet consetetur sadipscing elitr, sed diam nonumy <a href="#">@loremipsum</a> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur
+                                                            sadipscing elitr, sed diam nonumy 🥳</div>
+
+                                                        <div class="uk-margin-top"><a href="#" uk-scroll class="el-link">@loremipsum</a></div>
+
+
+
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+
+
+                                            <div class="uk-visible@xl uk-hidden-hover uk-hidden-touch"> <a class="el-slidenav uk-slidenav-large uk-position-medium uk-position-center-left" href="#" uk-slidenav-previous uk-slider-item="previous" aria-label="Previous slide"></a> <a class="el-slidenav uk-slidenav-large uk-position-medium uk-position-center-right"
+                                                    href="#" uk-slidenav-next uk-slider-item="next" aria-label="Next slide"></a></div>
+
+                                        </div>
+
+
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="uk-section-primary">
+                            <div data-src="/demo/circle/images/cta-bg.svg" uk-img class="uk-background-norepeat uk-background-center-center uk-section uk-section-xlarge">
+
+
+
+
+                                <div class="uk-container">
+
+                                    <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid>
+                                        <div class="uk-width-1-1">
+
+
+
+
+
+
+
+                                            <h2 class="uk-heading-large uk-text-center"> Get the<br> Circle App! </h2>
+                                            <div class="uk-panel uk-text-large uk-text-emphasis uk-margin-medium uk-width-xlarge uk-margin-auto uk-text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor.</div>
+                                            <div class="uk-margin-medium">
+                                                <div class="uk-child-width-auto uk-flex-center uk-grid-match" uk-grid>
+                                                    <div>
+                                                        <div class="el-item uk-panel uk-margin-remove-first-child" uk-scrollspy="target: [uk-scrollspy-class];">
+
+                                                            <div class="uk-child-width-expand uk-grid-small uk-flex-middle" uk-grid>
+                                                                <div class="uk-width-auto"><a href="#" uk-scroll aria-label="App Store"><img decoding="async" src="/demo/circle/images/logo-apple.svg" width="20" height="25" class="el-image uk-text-emphasis" alt loading="lazy" uk-svg></a></div>
+                                                                <div class="uk-margin-remove-first-child">
+
+
+
+                                                                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom"> <a href="#" uk-scroll class="uk-link-reset">App Store</a> </div>
+
+
+
+
+
+
+
+
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="el-item uk-panel uk-margin-remove-first-child" uk-scrollspy="target: [uk-scrollspy-class];">
+
+                                                            <div class="uk-child-width-expand uk-grid-small uk-flex-middle" uk-grid>
+                                                                <div class="uk-width-auto"><a href="#" uk-scroll aria-label="Microsoft"><img decoding="async" src="/demo/circle/images/logo-microsoft.svg" width="20" height="25" class="el-image uk-text-emphasis" alt loading="lazy" uk-svg></a></div>
+                                                                <div class="uk-margin-remove-first-child">
+
+
+
+                                                                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom"> <a href="#" uk-scroll class="uk-link-reset">Microsoft</a> </div>
+
+
+
+
+
+
+
+
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="el-item uk-panel uk-margin-remove-first-child" uk-scrollspy="target: [uk-scrollspy-class];">
+
+                                                            <div class="uk-child-width-expand uk-grid-small uk-flex-middle" uk-grid>
+                                                                <div class="uk-width-auto"><a href="#" uk-scroll aria-label="Google Play"><img decoding="async" src="/demo/circle/images/logo-google-play.svg" width="20" height="25" class="el-image uk-text-emphasis" alt loading="lazy" uk-svg></a></div>
+                                                                <div class="uk-margin-remove-first-child">
+
+
+
+                                                                    <div class="el-title uk-h5 uk-margin-top uk-margin-remove-bottom"> <a href="#" uk-scroll class="uk-link-reset">Google Play</a> </div>
+
+
+
+
+
+
+
+
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="uk-margin-large uk-text-center">
+                                                <div class="uk-flex-middle uk-grid-column-medium uk-grid-row-small uk-child-width-auto uk-flex-center" uk-grid>
+
+                                                    <div class="el-item">
+
+
+                                                        <a class="el-content uk-button uk-button-default" href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=26">
+    
+        Download    
+    
+</a>
+
+
+                                                    </div>
+
+
+                                                    <div class="el-item">
+
+
+                                                        <a class="el-content uk-button uk-button-text" href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19">
+    
+        Read More    
+    
+</a>
+
+
+                                                    </div>
+
+
+                                                </div>
+
+                                            </div>
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Builder #footer -->
+                        <div class="uk-section-default uk-position-z-index-negative uk-section uk-section-large" uk-sticky="position: bottom; overflow-flip: true; start: -100%; end: 0;">
+
+
+
+
+
+                            <div class="uk-container uk-container-small">
+
+                                <div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin" uk-grid>
+                                    <div class="uk-width-1-1">
+
+
+
+
+
+
+
+                                        <div class="uk-margin uk-text-center@s uk-text-center">
+                                            <a class="el-link" href="https://demo.yootheme.com/wordpress/themes/circle/"><img src="/demo/circle/images/logo.svg" width="140" height="38" class="el-image" alt="Fuse" loading="lazy"></a>
+
+                                        </div>
+                                        <div class="uk-panel uk-text-large uk-margin-medium uk-width-xlarge uk-margin-auto uk-text-center">Dolor sit amet consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</div>
+                                        <div class="uk-width-xlarge uk-margin-auto uk-text-center">
+                                            <form class="uk-form uk-panel js-form-newsletter" method="post" action="https://demo.yootheme.com/wordpress/themes/circle/wp-admin/admin-ajax.php?action=kernel&amp;p=theme%2Fnewsletter%2Fsubscribe">
+
+                                                <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
+
+
+                                                    <div><input class="el-input uk-input" type="email" name="email" placeholder="Your E-Mail" required></div>
+                                                    <div class="uk-width-auto@s"><button class="el-button uk-button uk-button-default" type="submit">Subscribe</button></div>
+
+
+                                                </div>
+
+                                                <input type="hidden" name="settings" value="YnC7xsVB+gXBQBXWoBwvYA==.YXBXaExSVXo3aGozNjlCTk00eUc4cjZidGJLM2lVU1NjU3hNdjZncW5SSGFlR1owR2MzWVZwS2c0aWxJdS9vOVBoS3NSdG1zNWZKVTU1NVVwQUNqL3d0OWxvKzMvUGtNWjYxb2ExZGFmMkxXbnMybTV5Y1VaeEJBd0l0a1JwSUNiNjNKb21NcXg4eDNpK3N1aDcrelQxWWlKS1VZWXFOMkxaMzVKMVRvdER6ZklUUkQ1TFpNakdlcjdhdXYyV0tLN0VyQmlvWW9hWUFkWlpNR2x5UTUvT0JZaE5SUjNOdlFOZi9LSDZBd0RlUDE2czMvUVNrQ2E2Qnd5aU9meHVZb3dFa0dOS2pmRHFnUFh6WlRGUnA1Vk9Fci9acUF1OURmWGxLUTdrcEVyYUU9.NGI4NzI0MmU2N2M3MzBkNzc0OGJmNDEyMWY1NWQzZTUyNjRiOWY3N2QzYzQ3NjI5M2U0Yjg3OTlkZDU5ZmZiYg==">
+                                                <div class="message uk-margin uk-hidden"></div>
+
+                                            </form>
+
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="tm-grid-expand uk-margin-xlarge" uk-grid>
+                                    <div class="uk-width-1-2 uk-width-auto@s uk-width-1-4@m">
+
+
+
+
+
+
+
+                                        <h3 class="uk-h5"> Circle </h3>
+                                        <ul class="uk-list uk-margin-medium">
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=19" class="el-link uk-link-text uk-margin-remove-last-child">Features</a></div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=20" class="el-link uk-link-text uk-margin-remove-last-child">Pricing</a></div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?post_type=post" class="el-link uk-link-text uk-margin-remove-last-child">Blog</a></div>
+                                            </li>
+                                        </ul>
+
+
+
+
+                                    </div>
+
+                                    <div class="uk-width-1-2 uk-width-auto@s uk-width-1-4@m">
+
+
+
+
+
+
+
+                                        <h3 class="uk-h5"> About </h3>
+                                        <ul class="uk-list uk-margin-medium">
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=4" class="el-link uk-link-text uk-margin-remove-last-child">About Us</a></div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=4" class="el-link uk-link-text uk-margin-remove-last-child">Our Team</a></div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=3" class="el-link uk-link-text uk-margin-remove-last-child"><span class="uk-text-background">Careers</span> ✨</a></div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="mailto:mail@example.com" class="el-link uk-link-text uk-margin-remove-last-child">Contact</a></div>
+                                            </li>
+                                        </ul>
+
+
+
+
+                                    </div>
+
+                                    <div class="uk-width-1-2 uk-width-auto@s uk-width-1-4@m">
+
+
+
+
+
+
+
+                                        <h3 class="uk-h5"> Support </h3>
+                                        <ul class="uk-list uk-margin-medium">
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=26" class="el-link uk-link-text uk-margin-remove-last-child">Downloads</a></div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=21" class="el-link uk-link-text uk-margin-remove-last-child">Documentation</a></div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=23" class="el-link uk-link-text uk-margin-remove-last-child">Updates</a></div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="el-content uk-panel"><a href="https://demo.yootheme.com/wordpress/themes/circle/?page_id=20#faq" class="el-link uk-link-text uk-margin-remove-last-child">FAQ</a></div>
+                                            </li>
+                                        </ul>
+
+
+
+
+                                    </div>
+
+                                    <div class="uk-width-1-2 uk-width-auto@s uk-width-1-4@m">
+
+
+
+
+
+
+
+                                        <h3 class="uk-h5"> Follow Us </h3>
+                                        <ul class="uk-list uk-margin-medium">
+                                            <li class="el-item">
+                                                <div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid>
+                                                    <div class="uk-width-auto"><a href="https://www.youtube.com/yootheme" target="_blank" aria-label="YouTube"><span class="el-image uk-text-emphasis" uk-icon="icon: youtube;"></span></a></div>
+                                                    <div>
+                                                        <div class="el-content uk-panel"><a href="https://www.youtube.com/yootheme" target="_blank" class="el-link uk-link-text uk-margin-remove-last-child">YouTube</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid>
+                                                    <div class="uk-width-auto"><a href="https://github.com/yootheme" target="_blank" aria-label="GitHub"><span class="el-image uk-text-emphasis" uk-icon="icon: github;"></span></a></div>
+                                                    <div>
+                                                        <div class="el-content uk-panel"><a href="https://github.com/yootheme" target="_blank" class="el-link uk-link-text uk-margin-remove-last-child">GitHub</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="el-item">
+                                                <div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid>
+                                                    <div class="uk-width-auto"><a href="https://twitter.com/yootheme" target="_blank" aria-label="Twitter"><span class="el-image uk-text-emphasis" uk-icon="icon: twitter;"></span></a></div>
+                                                    <div>
+                                                        <div class="el-content uk-panel"><a href="https://twitter.com/yootheme" target="_blank" class="el-link uk-link-text uk-margin-remove-last-child">Twitter</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="tm-grid-expand uk-child-width-1-1 uk-margin-remove-vertical" uk-grid>
+                                    <div class="uk-width-1-1">
+
+
+
+
+
+
+                                        <div class="uk-panel uk-text-small uk-text-center">©
+                                            <script>
+                                                document.currentScript.insertAdjacentHTML('afterend', '<time datetime="' + new Date().toJSON() + '">' + new Intl.DateTimeFormat(document.documentElement.lang, {
+                                                    year: 'numeric'
+                                                }).format() + '</time>');
+                                            </script> Circle. All rights reserved.<br>Powered by <a class="uk-link-text" href="https://yootheme.com/">YOOtheme</a>.</div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+                    <script type='text/javascript' src='https://demo.yootheme.com/wordpress/wp-includes/js/comment-reply.min.js?ver=6.1.1' id='comment-reply-js'></script>
+                    <script type='text/javascript' src='https://demo.yootheme.com/wordpress/wp-content/themes/yootheme/vendor/yootheme/builder-newsletter/app/newsletter.min.js?ver=3.0.11' id='script:newsletter-js'></script>
+</body>
+
+</html>
